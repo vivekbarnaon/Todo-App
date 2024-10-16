@@ -1,0 +1,78 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Center the Todo App and make it responsive */
+.container {
+    width: 350px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Styling for the header */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Input field and button styling */
+input {
+    padding: 10px;
+    font-size: 16px;
+    width: calc(100% - 80px);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Container for input and button */
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px; /* Spacing between input/button and the list */
+}
+
+/* Styling for the task list */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Styling each list item */
+li {
+    background-color: #dcdde1;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+}
+
+li:nth-child(odd) {
+    background-color: #f5f6fa;
+}
